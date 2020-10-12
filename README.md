@@ -6,7 +6,15 @@ This project creates an ETL pipeline for a startup called Sparkify. Sparkify wan
 activity on their new music streaming app. This project includes creating a database schema and the ETL pipeline transfers data from files in two
 local directories into these tables in Postgres using Python and SQL.
 
-## Files in repository 
+
+## Files in repository
+
+**create_tables.py** : Python script to create database and the tables.   
+**sql_queries.py**   : Python script that contains SQL statements for creating tables and Inserting records into tables.  
+**etl.py**           : Python script that extracts data , transforms and loads into Postgres. 
+
+
+## Project Datasets
 
 ### Song Dataset
 
